@@ -1,0 +1,12 @@
+body{
+    background-image:url(https://i.pinimg.com/564x/06/0f/af/060faf33959980a20474f24770d14dbb.jpg) ;
+}
+h1{
+    border-left: 20;
+    text-align: center;
+
+}
+.job-title{
+    text-align: center;
+   text-decoration: solid;
+}

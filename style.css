@@ -1,22 +1,198 @@
-body{
-    background-color: #FDDA0D;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+body{  
+    font-family: 'Montserrat', sans-serif;;
+    margin: 0;
+    padding: 0;
+    background-color: #15161b;
+    box-sizing: border-box;    
 }
-h1{
+header{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-size: 22px;
+}
+header{
+    color: aliceblue;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+a :hover{
+    color:#cc0000 ;
+    transition: 0.4s all;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    color: aliceblue;
+}
+#boton{
+    border: 2px solid #cc0000;
+    padding: 10px;
+    border-radius: 15px;
+}
+#boton:hover{
+    background-color: #cc0000;
+    color: aliceblue;  
+}
+.logo h1{
+    color: aliceblue;
+}
+.logo span{
+    color: #cc0000;
+}
+.section01{
+    display: flex;
+    justify-content: center;
+}
+.area-info h3{
     text-align: center;
-    
-       
-}
-h2{
-    text-align: center;
-    font-size: larger;
-    font-family: cursive;
-}
-div{
-    text-align:center;
-}
-h3{
-    text-align: center;
-    font-size: larger;
-    font-family: cursive;
+    font-weight: 30px;
+    color: aliceblue;
+    font-weight: normal;
 
 }
+.area-info p{
+    padding: 20px;
+    width: 380px;
+    margin: 40px;
+    line-height: 30px;
+    margin-top: -10px;
+    color: aliceblue;
+    font-size: 26px;
+    align-items: center;
+    text-align: justify;
+    
+}
+.img-header img{
+    width: 300px;
+    height: auto;
+}
+/*----SEÇÃO 2----*/
+hr{
+   background-color: #cc0000;
+   border: none;
+   border-radius: 6px;
+}
+main{
+    height: 70vh;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ h2{
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Anton', sans-serif;;
+}
+
+main.card{
+    display: flex;
+    flex-direction:row;
+    
+}
+main.card section.cards{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #2c2f37;
+    border-radius: 10px;
+    max-height: 80%;
+    margin-left: 30px;
+    margin-top: -100px;
+    color: aliceblue;
+}
+main.card section.cards :first-child{
+    margin-left: 0;
+}
+
+main.card section.cards img{
+    width: 30%;
+}
+main.card section.cards button{
+    padding: 10px 6px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 80%;
+    margin: 14px;
+    background-color: #cc0000;
+    color: aliceblue;
+    font-weight: 300;
+}
+main.card section.cards{
+    box-shadow: 20px 20px 50px -30px, #3D5A73;
+    
+}
+/*----video-----*/
+
+.banner{
+    width: 100%;
+    height: 100%;
+    padding: -90px;
+    margin-top: -20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+    position: relative;
+    left: 0;
+    object-fit: cover;
+    width: 50%;
+    margin: 60px;
+    margin-top: 10px;
+}
+.banner .content{
+    position: relative;
+    z-index: 1;
+
+}
+.nome h3{
+    position: absolute;
+    margin: 460px;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    color: aliceblue;
+    top: 100%;
+}
+footer{ 
+    background-color: #2c2f37;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+h4{ padding: 12px;
+    text-align: center;
+}
+.midias-sociais a{  
+    left: 0;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin: 20px;
+}
+

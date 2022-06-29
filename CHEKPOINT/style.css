@@ -36,7 +36,7 @@ li{
     color: aliceblue;
 }
 #boton{
-    border: 2px solid #cc0000;
+    border: 2px solid #cc0000;r
     padding: 10px;
     border-radius: 15px;
 }
@@ -177,6 +177,7 @@ footer{
     height: 100%;
     width: 100%;
     color: aliceblue;
+    
 }
 .footer-box{
     display: flex;

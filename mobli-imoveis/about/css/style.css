@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+    font-family:  'Lato', sans-serif;
+}
+
+.bg-primary-color{
+    background-color:#D1D1D1;
+    
+}
+.bg-secondary-color{
+    background-color:#ece8ea;
+}
+.bg-dark-color{
+    background-color: #050505;
+}
+.primary-color{
+ color: #050505;
+}
+.secundary-color{
+    color: #7a7a7a;
+}
+/*---NAV BAR---*/
+#navbar{
+    border-bottom: 1px solid #7a7a7a;
+}
+#navbar a.active{
+    border-bottom: 1px solid #7a7a7a;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.navbar-brand span{
+    font-weight: 900;
+    font-size:  1.2em;
+    margin-left: 0.2em;
+   
+}
+.nav-item {
+   margin: 0 14px;
+
+}
+.nav-item-e:hover{
+    background-color: #7a7a7a;
+    
+}
+#slider{
+    margin: 1em;
+    margin-top: 8em;
+
+}
+#slider .carousel-caption{
+    bottom: 3em;
+}
+#slider .carousel-caption h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-shadow: #050505 2px 2px;
+}
+#slider .btn{
+    padding: 8px 6px;
+    font-size: 1.em;
+    margin-top: 16px;
+    width: 180px;
+}
+.carousel-control-prev i{
+    color: #111;
+    font-size: 3em;
+
+}
+.carousel-control-next i{
+    color: #111;
+    font-size: 3em;
+    font-weight: 800;  
+}
+@media(min-width: 768px) {
+    #slider .carousel-caption{
+        bottom: 15em;
+    }
+    #slider .carousel-caption h5{
+        font-size: 3em;
+        text-shadow: #050505 2px 3px;
+    }#slider .btn{
+        padding: 8px 6px;
+        font-size: 1.2em;
+        margin-top: 16px;
+        width: 180px;
+    }
+    .carousel-indicators{
+        bottom: 10em;
+    }
+}
+    .about__us{
+        display: flex;
+        height: 606px;
+        width: 100%;
+
+    }
+    .about__us h4{
+        display: flex;
+        width: 70%;
+        padding-left: 30%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+/*--------footer toperson----------*/
+#footer-details{
+    margin-left: 320px;
+    padding: 20px;
+}
+.footer-text{
+    
+    align-items: center;
+}
+.footer-text ul li{
+    display: inline;
+    margin: 10px;
+    color: #7a7a7a;
+}

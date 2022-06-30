@@ -22,7 +22,7 @@
     />
 
     <!---link do css--->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/contato/style.css" />
 
     <!-- JavaScript link do bootstrap -->
     <script
@@ -31,9 +31,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-
   <body>
-    <!---Nav Bar-->
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
       <div class="container py-03">
         <a href="#" class="navbar-brand">
@@ -54,7 +52,7 @@
         <div class="collapse.navbar-collapse" id="navbar-items">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a href="../index.html" class="nav-link active" aria-current="page">Home</a>
+              <a href="/index.html" class="nav-link active" aria-current="page">Home</a>
             </li>
             <li class="nav-item">
               <a href="/about/index.html" class="nav-link">Sobre</a>
@@ -63,27 +61,67 @@
               <a href="#" class="nav-link">Imóveis</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contato</a>
+              <a href="/contato/contato.html" class="nav-link">Contato</a>
             </li>
             <li class="nav-item-e">
-              <a href="#" class="nav-link">Entrar</a>
+              <a href="/css/formulario.html/form.html" class="nav-link">Entrar</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="about__us">
+    <main class="margin-container">
+      <div id="slider">
+        <div>
+            <div>
+                <h1>Entre em contato conosco</h1>
+            </div>
+            <div class="icons">
+                <a href="#"><i class="bi bi-instagram "></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <h2>Envie seu projeto</h2>
+        <div class="mb-3">
+            
+          <label for="exampleFormControlInput1" class="form-label"
+            >Seu email</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Fale-me um pouco sobre o seu projeto.</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <div>
+          <label for="formFileLg" class="form-label">Enviar Projeto</label>
+          <input
+            class="form-control form-control-lg"
+            id="formFileLg"
+            type="file"
+          />
+        </div>
+        <div class="d-grid gap-2">
+        <button class=" tn btn-secondary" type="button">Enviar</button>
+      </div>
+    </main>
 
-      <h4>
-        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-      </h4>
 
-
-    </div>
-
-    <!------FOOTER TOPERSON-------->
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-dark text-center text-white ">
       <div class="container p-4 pb-0">
       </div>
       <div class="footer-text">
@@ -97,9 +135,6 @@
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         © 2022 Copyright:
         <a class="text-white" href="https://www.digitalhouse.com/br/produtos/programacao/certified-tech-developer?utm_source=google&utm_medium=paidsearch&utm_campaign=lead&utm_term=institucional&utm_content=b2c-institucional-curso-landing-texto-lead-kw-institucional-defrase-keyword-all-other-text-carreer-none-none-all-br-search-none&gclid=CjwKCAjwiuuRBhBvEiwAFXKaNPz_vez_YJnkRaJs_nn1BuXv1pOZU5rqq3Inj3L-SXu3ZL5Sr9PpIBoCPKIQAvD_BwE">Digital House</a>
-      </div>
-    </footer>
-        </div>
       </div>
     </footer>
   </body>

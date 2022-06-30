@@ -58,3 +58,17 @@ a{
     margin-left: 4px;
     font-family: 'lato' sans-serif;
 }
+/*--------footer toperson----------*/
+#footer-details{
+    margin-left: 320px;
+    padding: 20px;
+}
+.footer-text{
+    
+    align-items: center;
+}
+.footer-text ul li{
+    display: inline;
+    margin: 10px;
+    color: #7a7a7a;
+}
